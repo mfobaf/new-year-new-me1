@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans';
+
+}
+
+/* header styles */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/banner/banner2.png");
+    background-size: cover;
+}
+
+.banner-content {
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 180px;
+
+}
+
+.banner-items {
+    text-align: right;
+    font-family: 'Work Sans';
+    padding: -10px;
+
+}
+
+h1 {
+    font-family: 'Work Sans';
+    font-weight: 900;
+    font-size: 60px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.primary-button {
+    width: 140px;
+    font-size: 15px;
+    height: 56px;
+    top: 578px;
+    background-color: darkgrey;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button.primary-button {
+    width: 140px;
+    font-size: 15px;
+    height: 56px;
+    top: 578px;
+    background-color: #ff4400c0;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* body content style */
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+
+}
+
+.body-img {
+    margin-left: 150px;
+}
+
+.body-text {
+    /* width: 600px;
+    height: 400px; */
+    margin-right: 140px;
+    text-align: left;
+    margin-top: 240px;
+
+}
+
+.body-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.body-subtitile {
+    max-width: 400px;
+}
+
+.li-items {
+    list-style: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    padding: 6px;
+
+
+}
+
+.checkmarks {
+    color: rgb(10, 170, 10);
+    padding: 6px;
+    font-weight: 600;
+}
+
+/*  <!-- srevice and plans design --> */
+.serviceplan-container {
+    max-width: 1140px;
+    height: 290px;
+    margin-left: 180px;
+}
+
+.serviceplan-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+    margin-top: 120px;
+    margin-right: 40px;
+
+}
+
+.serviceplan-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.item {
+    width: 250px;
+    margin: 5px;
+}
+
+.item-img {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.item-paragraph {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* gradiant style */
+.gradiant {
+    /* background-image: url(/images/watch.png); */
+    background: linear-gradient(rgba(230, 126, 34,0.6),rgba(241, 196, 15, 0.2)),  url(../images/watch.png) ;
+    width: 950px;
+    height: 250px;
+    margin-top: 113px;
+    margin-left: 200px;
+    border-radius: 5px;
+
+}
+
+.gradiant-text {
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 600px;
+    margin-left: 65px;
+    margin-top: 70px;
+    height: 180px;
+    padding-top: 40px;
+}
+
+.btn {
+    width: 120px;
+    font-size: 15px;
+    height: 50px;
+    background-color: darkgrey;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* footer style */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    height: 470px;
+    width: 100%;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: #F8F8F8;
+    padding-left: 80px;
+}
+
+.footer-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-items {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+.footer-icons {
+    padding: 5px;
+}
+
+.footer-form {
+    height: 300px;
+    margin-right: 60px;
+    width: 270px;
+    padding: 20px;
+}
+
+.footerfoprm-title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 50px;
+
+
+}
+
+.footer-email {
+    width: 200px;
+    padding: 20px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400px;
+}
+
+.footer-btn {
+    width: 140px;
+    color: #F3F3F3;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-top: 10px;
+
+}
